@@ -1,3 +1,11 @@
+/*
+<script>
+        $(function(){
+            <!-- 页面初始化加载 -->
+            var tips = new helpTips().init();
+        })
+    </script>
+*/
 //点击问号出现提示信息
 //定义提示弹出框；
 var helpTipsLayer;
