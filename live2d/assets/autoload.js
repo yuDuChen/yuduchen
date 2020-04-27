@@ -1,5 +1,5 @@
 $("<link>").attr({
-		href: "https://cdn.jsdelivr.net/gh/yuDuChen/yuduchen@v1.5.2/live2d/assets/waifu.css",
+		href: "https://cdn.jsdelivr.net/gh/yuDuChen/yuduchen@master/live2d/assets/waifu.css",
 		rel: "stylesheet",
 		type: "text/css"
 	}).appendTo('head');
