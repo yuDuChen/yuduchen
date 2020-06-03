@@ -12,7 +12,7 @@ $("<link>").attr({
 			console.log("加载live2d.js--success")
 			/* 可直接修改部分参数 */
 			live2d_settings['hitokotoAPI'] = 'hitokoto.cn'; // 一言 API测试
-			live2d_settings['modelId'] = 5; // 默认模型 ID
+			live2d_settings['modelId'] = 3; // 默认模型 ID
 			live2d_settings['modelTexturesId'] = 1; // 默认材质 ID
 			live2d_settings['modelStorage'] = false; // 不储存模型 ID
 			/* 在 initModel 前添加 */
