@@ -48,7 +48,7 @@
     font-weight: bold;
 }
 .markdown-body .code .keyword{
-    color: #ff4343;
+    color: #008f58;
     font-weight: bold;
 }
 .markdown-body .comment{
@@ -65,5 +65,21 @@
 }
 .markdown-body .number{
     color: #1da800;
+    font-weight: bold;
+}
+.markdown-body .title{
+    color: #ffb054;
+    font-weight: bold;
+}
+.markdown-body .params{
+    color: #008f86;
+    font-weight: bold;
+}
+.markdown-body .built_in{
+    color: #000000;
+    font-weight: bold;
+}
+.markdown-body .literal{
+    color: #ff4343;
     font-weight: bold;
 }
