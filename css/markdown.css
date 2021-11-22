@@ -1,3 +1,18 @@
+.markdown-body h2{
+    width: auto;
+    display: block;
+    padding: 10px 0px;
+    background-color: unset;
+    border-radius: 3px;
+    text-align: left;
+    border: 0;
+    color: #ffffff;
+}
+.markdown-body h2::before {
+    content: "#";
+    padding-right: 10px;
+    color: #6d9ee7;
+}
 .markdown-body .highlight pre, .markdown-body pre {
     padding: 16px 5px;
     overflow: auto;
@@ -23,22 +38,27 @@
     background-color: unset;
 }
 .markdown-body table{
-    background-color: #fcfcfc;
+    background-color: #e8e8e8;
+    margin: 0;
+    border-radius: 3px;
+    border: 20px solid #f6f8fa;
 }
 .markdown-body .highlight{
-    background-color: #b5bcda;
+    background-color: #fcfcfc;
     padding: 5px;
+    border-top: 40px solid #f19c9f;
 }
 .markdown-body blockquote {
     display: block;
-    padding: 16px;
+    padding: 10px;
     margin: 0 0 24px;
-    border-left: 20px solid #b5bcda;
-    background: #f0f0f0;
+    border-left: 12px solid #b5bcda;
+    background: unset;
     overflow: auto;
     word-break: break-word!important;
-    color: black;
+    color: #f1f1f1;
     font-size: 20px;
+    text-align: left;
 }
 .markdown-body .code * {
     font-family: SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,monospace;
